@@ -169,6 +169,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install required packages**:
 ```bash
+pip install -r requirements.txt
+```
+
+Or install packages individually:
+```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm optuna scipy jupyter
 ```
 
@@ -209,6 +214,14 @@ You can adjust the following parameters in the notebook:
 
 ## Requirements
 
+All dependencies are listed in `requirements.txt`. To install them:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Core Dependencies
+
 - Python 3.7+
 - NumPy
 - Pandas
@@ -221,7 +234,7 @@ You can adjust the following parameters in the notebook:
 - SciPy
 - Jupyter Notebook
 
-### Detailed Requirements
+### Detailed Version Requirements
 ```
 numpy>=1.19.0
 pandas>=1.1.0
