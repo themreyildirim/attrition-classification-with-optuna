@@ -79,7 +79,7 @@ def main():
     print(f"Completed at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("\nGenerated outputs:")
     print("  - data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
-    print("  - output/*.png (13 visualizations)")
+    print("  - output/*.png (EDA and evaluation visualizations)")
     print("  - output/best_hyperparameters.json")
     print("  - output/evaluation_results.json")
     print("\nNext steps:")

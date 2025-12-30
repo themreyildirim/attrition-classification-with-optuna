@@ -50,6 +50,8 @@ python generate_data.py
 
 This creates `data/WA_Fn-UseC_-HR-Employee-Attrition.csv` with 1,470 employee records.
 
+**Note:** Alternatively, you can use `prepare_data.py` if you have access to the actual IBM HR Analytics dataset from Kaggle. Place the CSV file in the `data/` directory and the script will validate it.
+
 ### 2. Exploratory Data Analysis
 
 Run the EDA script to analyze the data and generate visualizations:
